@@ -1,0 +1,11 @@
+language:
+
+- swift
+
+osx_image: xcode10.1
+
+script:
+
+- xcodebuild -scheme SwiftyLibPractice -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone X,OS=12.1' build test
+
+
