@@ -14,8 +14,10 @@ class NYTimeArticleVC: UIViewController {
     var articleArray:[NYArtile] = []
     @IBOutlet weak var articleTableView: UITableView!
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        articleTableView.accessibilityIdentifier = "table--articleTableView"
         self.getNYArticleApiCall()
         
         
@@ -44,7 +46,7 @@ extension NYTimeArticleVC : UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         let articleDetailVC = self.storyboard?.instantiateViewController(withIdentifier: "NYTimeArticleDetailVC") as! NYTimeArticleDetailVC
-        articleDetailVC.url = self.articleArray[indexPath.row].url
+        articleDetailVC.atricleModel = self.articleArray[indexPath.row]
         self.navigationController?.pushViewController(articleDetailVC, animated: true)
     }
     
@@ -57,6 +59,10 @@ extension NYTimeArticleVC : UITableViewDataSource {
         return 1
     }
     
+     func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
+        
+            return UITableView.automaticDimension
+    }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
         
         return articleArray.count
@@ -70,7 +76,11 @@ extension NYTimeArticleVC : UITableViewDataSource {
         cell.articleTitleLabel.text = articleArray[indexPath.row].title
         cell.byLabel.text = articleArray[indexPath.row].byline
        cell.dateLabel.text = articleArray[indexPath.row].published_date
-
+        if let urlString =  articleArray[indexPath.row].imageThumbnail
+        {
+            cell.thumbnailImageView.sd_setImage(with:URL(string: urlString) , completed: nil)
+        }
+        
         
         return cell
     }

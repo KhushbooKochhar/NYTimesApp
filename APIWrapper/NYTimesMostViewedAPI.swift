@@ -30,17 +30,11 @@ class NYTimesMostViewedAPI {
                 
                 
                
-                for (dictJSON) in JSONResponse["results"].arrayValue {
+                for dictJSON in JSONResponse["results"].arrayValue {
                     
  
+                   let articleModel = NYArtile(json: dictJSON )
                     
-                let dict = dictJSON.dictionaryValue
-                   let articleModel = NYArtile()
-                    articleModel.abstract = dict["abstract"]?.stringValue ?? ""
-                    articleModel.byline = dict["byline"]?.stringValue ?? ""
-                    articleModel.published_date = dict["published_date"]?.stringValue ?? ""
-                    articleModel.title = dict["title"]?.stringValue ?? ""
-                    articleModel.url = dict["url"]?.stringValue ?? ""
                     articleArray.append(articleModel)
                     
                    

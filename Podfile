@@ -7,8 +7,7 @@ target 'NYTimesApp' do
    pod 'SwiftyJSON' , '= 3.1.4'
    pod 'ObjectMapper'
     pod 'ReachabilitySwift'
-     pod 'KVNProgress'
-      pod 'JGProgressHUD'
+    pod 'SDWebImage'
       pod 'MBProgressHUD'
      
   use_frameworks!

@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NYTimesApp/NYTimeArticleVC.swift"
-            timestampString = "574169981.448186"
+            timestampString = "574202170.859766"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
             landmarkName = "getNYArticleApiCall()"
             landmarkType = "7">
          </BreakpointContent>
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NYTimesApp/NYTimeArticleVC.swift"
-            timestampString = "574169981.448287"
+            timestampString = "574202170.860154"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -42,7 +42,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NYTimesMostViewedAPI.swift"
-            timestampString = "574169981.448366"
+            timestampString = "574202170.8604439"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "15"
@@ -58,45 +58,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NYTimesMostViewedAPI.swift"
-            timestampString = "574169981.448434"
+            timestampString = "574202170.860747"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "49"
-            endingLineNumber = "49"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
             landmarkName = "nyTimesMostViewedGETAPI(section:period:viewControler:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (SwiftyJSON.JSON) -&gt; () in static NYTimesApp.NYTimesMostViewedAPI.nyTimesMostViewedGETAPI(section: Swift.String, period: Swift.Int, viewControler: NYTimesApp.NYTimeArticleVC) -&gt; ()"
-                  moduleName = "NYTimesApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/khushboo.kochar/Desktop/NYTimesApp/NYTimesMostViewedAPI.swift"
-                  timestampString = "574167719.094617"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "50"
-                  endingLineNumber = "50"
-                  offsetFromSymbolStart = "7243">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in closure #1 (SwiftyJSON.JSON) -&gt; () in static NYTimesApp.NYTimesMostViewedAPI.nyTimesMostViewedGETAPI(section: Swift.String, period: Swift.Int, viewControler: NYTimesApp.NYTimeArticleVC) -&gt; ()"
-                  moduleName = "NYTimesApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/khushboo.kochar/Desktop/NYTimesApp/NYTimesMostViewedAPI.swift"
-                  timestampString = "574167719.096943"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "20"
-                  endingLineNumber = "20"
-                  offsetFromSymbolStart = "30">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -106,45 +74,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NYTimesMostViewedAPI.swift"
-            timestampString = "574169981.4484971"
+            timestampString = "574202170.8609149"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "22"
             endingLineNumber = "22"
             landmarkName = "nyTimesMostViewedGETAPI(section:period:viewControler:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "static NYTimesApp.NYTimesMostViewedAPI.nyTimesMostViewedGETAPI(section: Swift.String, period: Swift.Int, viewControler: NYTimesApp.NYTimeArticleVC) -&gt; ()"
-                  moduleName = "NYTimesApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/khushboo.kochar/Desktop/NYTimesApp/NYTimesMostViewedAPI.swift"
-                  timestampString = "574167719.103165"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "22"
-                  endingLineNumber = "22"
-                  offsetFromSymbolStart = "1268">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (SwiftyJSON.JSON) -&gt; () in static NYTimesApp.NYTimesMostViewedAPI.nyTimesMostViewedGETAPI(section: Swift.String, period: Swift.Int, viewControler: NYTimesApp.NYTimeArticleVC) -&gt; ()"
-                  moduleName = "NYTimesApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/khushboo.kochar/Desktop/NYTimesApp/NYTimesMostViewedAPI.swift"
-                  timestampString = "574167719.10528"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "20"
-                  endingLineNumber = "20"
-                  offsetFromSymbolStart = "88">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -154,7 +90,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NYTimesMostViewedAPI.swift"
-            timestampString = "574169981.448552"
+            timestampString = "574202170.861086"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "26"
@@ -170,7 +106,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NYTimesMostViewedAPI.swift"
-            timestampString = "574169981.4486049"
+            timestampString = "574202170.86121"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "23"
@@ -186,11 +122,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NYTimesApp/NYTimeArticleVC.swift"
-            timestampString = "574169981.448658"
+            timestampString = "574202170.861359"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "60"
-            endingLineNumber = "60"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
             landmarkName = "tableView(_:numberOfRowsInSection:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -202,12 +138,44 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NYTimesApp/NYTimeArticleVC.swift"
-            timestampString = "574169981.448718"
+            timestampString = "574202170.861553"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "44"
-            endingLineNumber = "44"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
             landmarkName = "tableView(_:didSelectRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NYTimeArticleDetailVC.swift"
+            timestampString = "574202170.8617181"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "NYTimeArticleDetailVC"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NYTimeArticleDetailVC.swift"
+            timestampString = "574202170.86185"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -218,12 +186,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NYTimesApp/NYTimeArticleVC.swift"
-            timestampString = "574169981.448769"
+            timestampString = "574202170.861931"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
-            landmarkName = "tableView(_:didSelectRowAt:)"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "reloadTableView(articleArray:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -233,91 +201,14 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "NYTimeArticleDetailVC.swift"
-            timestampString = "574169981.448822"
+            filePath = "NYTimesApp/NYTimeArticleVC.swift"
+            timestampString = "574202170.86212"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "11"
-            endingLineNumber = "11"
-            landmarkName = "NYTimeArticleDetailVC"
-            landmarkType = "3">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NYTimesApp.NYTimeArticleDetailVC.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; NYTimesApp.NYTimeArticleDetailVC"
-                  moduleName = "NYTimesApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/khushboo.kochar/Desktop/NYTimesApp/NYTimeArticleDetailVC.swift"
-                  timestampString = "574167719.136145"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "4">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NYTimesApp.NYTimeArticleDetailVC.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; NYTimesApp.NYTimeArticleDetailVC"
-                  moduleName = "NYTimesApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/khushboo.kochar/Desktop/NYTimesApp/NYTimeArticleDetailVC.swift"
-                  timestampString = "574167719.138363"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "14"
-                  endingLineNumber = "14"
-                  offsetFromSymbolStart = "62">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NYTimesApp.NYTimeArticleDetailVC.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;NYTimesApp.NYTimeArticleDetailVC&gt;"
-                  moduleName = "NYTimesApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/khushboo.kochar/Desktop/NYTimesApp/NYTimeArticleDetailVC.swift"
-                  timestampString = "574167719.140447"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "4">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NYTimesApp.NYTimeArticleDetailVC.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;NYTimesApp.NYTimeArticleDetailVC&gt;"
-                  moduleName = "NYTimesApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/khushboo.kochar/Desktop/NYTimesApp/NYTimeArticleDetailVC.swift"
-                  timestampString = "574167719.142516"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "14"
-                  endingLineNumber = "14"
-                  offsetFromSymbolStart = "53">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NYTimesApp.NYTimeArticleDetailVC.__deallocating_deinit"
-                  moduleName = "NYTimesApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/khushboo.kochar/Desktop/NYTimesApp/NYTimeArticleDetailVC.swift"
-                  timestampString = "574167719.144679"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "16">
-               </Location>
-            </Locations>
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "reloadTableView(articleArray:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -326,13 +217,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "NYTimeArticleDetailVC.swift"
-            timestampString = "574169981.4488879"
+            filePath = "NYTimesApp/NYTimeArticleVC.swift"
+            timestampString = "574202170.8623281"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "18"
-            endingLineNumber = "18"
-            landmarkName = "viewDidLoad()"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
