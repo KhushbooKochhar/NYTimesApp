@@ -18,8 +18,15 @@ class NYTimeArticleVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         articleTableView.accessibilityIdentifier = "table--articleTableView"
+        if helper.isInternetAvailable()
+        {
         self.getNYArticleApiCall()
-        
+        }
+        else
+        {
+            helper.ShowCommomAlert(title: "Error", WithMessage: "Internet Not Available", showOnview: self)
+
+        }
         
     }
 

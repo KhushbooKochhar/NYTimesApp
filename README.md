@@ -10,7 +10,7 @@ https://api.nytimes.com/svc/mostpopular/v2/mostviewed/all-sections/1.json?api-ke
 
 and synchronous connetion is included in NYTimesAppTests
 
--> Period used is 1 for the API
+-> Period used is 7 for the API
 -> API Key generated from NYTimes developer account - W82VRNnMzr6RB3ZAtFp956d0vrj4mIuc
 
 
