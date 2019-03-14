@@ -6,6 +6,8 @@ osx_image: xcode10.1
 
 script:
 
+- pod install
+
 - xcodebuild -scheme NYTimesApp -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone X,OS=12.1' build test
 
 
